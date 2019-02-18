@@ -111,6 +111,10 @@ strike {
 
 }
 
+img {
+    max-width:100%
+}
+
 #cta-container {
 	 background-image: url(../images/bg.jpg);
 	 background-attachment: fixed;
