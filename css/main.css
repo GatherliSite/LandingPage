@@ -115,7 +115,7 @@ strike {
 #cta-container {
 	 background-image: url(../images/bg.jpg);
 	 background-attachment: fixed;
-	 color: white;
+	 color: black;
 	 
 }
 
@@ -136,9 +136,9 @@ strike {
 }
 
 .main-btn {
-	background-color: white;
+	background-color: #1497d6;
 	font-family: 'bariol_boldbold';
-	color: #004977;
+	color: white;
 	padding:11px 30px;
 	border-radius: 20px;
 	font-size: 22px;
