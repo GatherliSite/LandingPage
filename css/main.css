@@ -111,9 +111,6 @@ strike {
 
 }
 
-img {
-    max-width:20%;
-}
 
 #cta-container {
 	 background-image: url(../images/bg.jpg);
@@ -136,6 +133,8 @@ img {
 
 .logo {
 	padding: 50px 0;
+	width: 100%;
+        max-width: 320px;
 }
 
 .main-btn {
