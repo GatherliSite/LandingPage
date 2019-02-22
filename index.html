@@ -28,11 +28,16 @@
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
-
 	  gtag('config', 'UA-97874873-1');
 	</script>
 
 	
+	<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+	<script type="text/javascript">
+			$(function() {
+    			$('a[rel*=leanModal]').leanModal({ top : 200, closeButton: ".modal_close" });		
+			});
+	</script>   
 </head>
 
 <body>
@@ -72,7 +77,8 @@
 			
 			<div class="main-button">
 			
-				 <a href="javascript:void( window.open( 'https://form.jotform.com/90526513425150', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) "> class="main-btn
+				
+				<a rel="leanModal" name="signup" href="#signup" class="main-btn">
 					
 					<!-- *** EDIT ME *** -->
 					Sign Me Up
@@ -316,8 +322,8 @@
 		</div>
 
 	</div>
-
-	<!-- POP UP SIGN UP BOX --> 
+	
+	<!-- POP UP SIGN UP BOX -->
 	
 	 <div id="signup">
         <h4>
@@ -372,8 +378,8 @@
                 value="90526513425150"></li>
             </ul>
         </form>
-    </div> 
-	  
+    </div>
+
 </body>
 
 </html>
